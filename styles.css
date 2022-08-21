@@ -1,0 +1,90 @@
+.p1{
+    display: flex;
+    display: inline-block;
+}
+#t1{color: beige;
+font-style: italic;
+font-weight: 300;
+text-align: center;
+}
+#image{
+    margin-left: 600px;
+}
+#p2{
+    text-align: left;
+    font-style: normal;
+    color:coral;
+}
+.f1{
+    display: flex;
+    flex-direction:row;
+    margin-top: 300px;
+}
+.ct{
+    font-size: x-large;
+    text-align: center;
+    color: blue;
+}
+.ct{
+    margin-top: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: flex;
+
+}
+
+form span{
+    display: flex;
+    width:250px;
+    justify-content:end;
+    margin:5px;
+}
+
+label{
+    width:200px;
+}
+
+textarea{
+    margin-left:-116px;
+    
+}
+#bot{
+width:150px;
+margin-left: 392px;
+margin-top: 50px;
+}
+.box {
+
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.box:hover {
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+}
+.serv{
+    text-align: center;
+    color: rgb(255, 127, 127);
+}
+.dev{
+    color: rgb(106, 137, 229);
+}
